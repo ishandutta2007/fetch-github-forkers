@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="fetch-github-forkers",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Ishan",
+    author_email="ishandutta2007@gmail.com",
     description="A CLI tool to fetch GitHub forkers and append them to a file.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/fetch-github-forkers",
+    url="https://github.com/ishandutta2007/fetch-github-forkers",
     py_modules=["fetch_github_forkers"],
     classifiers=[
         "Programming Language :: Python :: 3",
