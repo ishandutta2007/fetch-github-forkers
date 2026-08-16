@@ -44,8 +44,8 @@ def get_forkers(owner, repo):
     return forkers
 
 if __name__ == "__main__":
-    owner_name = "octocat"
-    repo_name = "Spoon-Knife"
+    owner_name = "SylphAI-Inc"
+    repo_name = "skills"
     
     print(f"Fetching forkers for {owner_name}/{repo_name}...")
     result = get_forkers(owner_name, repo_name)
