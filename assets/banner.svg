@@ -1,0 +1,52 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1E2E"/>
+      <stop offset="100%" stop-color="#2D2B55"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7B61FF">
+        <animate attributeName="stop-color" values="#7B61FF;#00C9FF;#7B61FF" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00C9FF">
+        <animate attributeName="stop-color" values="#00C9FF;#7B61FF;#00C9FF" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="200" fill="url(#bg)" rx="15" ry="15"/>
+  
+  <!-- Dynamic floating dots in the background -->
+  <g opacity="0.3">
+    <circle cx="100" cy="150" r="4" fill="#fff">
+      <animate attributeName="cy" values="150;50;150" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="80" r="3" fill="#fff">
+      <animate attributeName="cy" values="80;160;80" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="120" r="5" fill="#fff">
+      <animate attributeName="cy" values="120;40;120" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="60" r="3" fill="#fff">
+      <animate attributeName="cy" values="60;140;60" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Pulsing title -->
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#textGrad)" text-anchor="middle" filter="url(#glow)">
+    fetch-github-forkers
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" />
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="18" fill="#A9A9B3" text-anchor="middle">
+    Automate your fork-fetching workflow at scale
+  </text>
+</svg>
