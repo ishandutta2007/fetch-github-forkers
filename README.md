@@ -131,6 +131,31 @@ To allow GitHub Actions to publish on your behalf:
 
 ---
 
+## 💖 Support
+
+Thank you for using and supporting **Fetch GitHub Forkers**! Your encouragement and support keep this project active, maintained, and continually improving.
+
+If you find this project helpful, please consider supporting it:
+
+- ⭐ **Star this repository**: Helps more developers discover the project.
+- 🍴 **Fork & Contribute**: Fork the repo, submit pull requests, or report issues and suggest enhancements.
+- 📢 **Share**: Spread the word with your friends, colleagues, and developer communities.
+- ☕ **Buy me a coffee**: Support ongoing open-source maintenance and feature development directly via the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<div align="center">
+
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Sponsor%20on%20GitHub-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+</a>
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-%E2%98%95-yellow?style=for-the-badge" alt="Buy Me A Coffee" />
+</a>
+
+</div>
+
+---
+
 ## 📈 Star History
 
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/fetch-github-forkers&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/fetch-github-forkers&type=date&legend=top-left)
+
